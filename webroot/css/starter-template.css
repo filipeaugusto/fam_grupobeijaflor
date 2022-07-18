@@ -1,0 +1,8 @@
+body {
+  padding-top: 4rem;
+}
+input[type=color].form-control {
+    height: calc(2.25rem + 2px)!important;
+    width: 95px; padding: 0 3px;
+}
+

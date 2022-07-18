@@ -1,0 +1,56 @@
+<?php
+/**
+ * @var \{{ namespace }}\View\AppView $this
+ * @var \{{ entityClass }}[]|\Cake\Collection\CollectionInterface ${{ pluralVar }}
+ */
+?>
+<?php $this->extend('/layout/TwitterBootstrap/dashboard'); ?>
+
+<?php echo $this->element('menu-actions'); ?>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+{% for field in fields %}
+        <th scope="col"><?= $this->Paginator->sort('{{ field }}') ?></th>
+{% endfor %}
+        <th scope="col" class="actions"><?= __('Actions') ?></th>
+    </tr>
+    </thead>
+    <tbody>
+        <?php foreach (${{ pluralVar }} as ${{ singularVar }}) : ?>
+        <tr>
+{% for field in fields %}
+{% set isKey = false %}
+{% if associations.BelongsTo %}
+{% for alias, details in associations.BelongsTo %}
+{% if field == details.foreignKey %}
+{% set isKey = true %}
+            <td><?= ${{ singularVar }}->has('{{ details.property }}') ? $this->Html->link(${{ singularVar }}->{{ details.property }}->{{ details.displayField }}, ['controller' => '{{ details.controller }}', 'action' => 'view', ${{ singularVar }}->{{ details.property }}->{{ details.primaryKey[0] }}]) : '' ?></td>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% if isKey is not same as(true) %}
+{% set columnData = Bake.columnData(field, schema) %}
+{% if columnData.type not in ['integer', 'float', 'decimal', 'biginteger', 'smallinteger', 'tinyinteger'] %}
+{% if field == 'id' %}
+            <td><?= $this->Text->truncate(${{ singularVar }}->{{ field }}, 8, ['ellipsis' => '', 'exact' => true]) ?></td>
+{% else %}
+            <td><?= h(${{ singularVar }}->{{ field }}) ?></td>
+{% endif %}
+{% else %}
+            <td><?= $this->Number->format(${{ singularVar }}->{{ field }}) ?></td>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% set pk = '$' ~ singularVar ~ '->' ~ primaryKey[0] %}
+            <td class="actions">
+                <?php echo $this->element('table-actions', ['data' => ${{ singularVar }}]); ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+<div class="paginator">
+    <?php echo $this->element('pagination'); ?>
+</div>

@@ -1,0 +1,2399 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-09-02 17:33+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/Admin/AccountsController.php:65
+#: Controller/Admin/AccountsController.php:90
+#: Controller/Admin/AddressesController.php:68
+#: Controller/Admin/AddressesController.php:91
+#: Controller/Admin/AttachmentsController.php:74
+#: Controller/Admin/AttachmentsController.php:99
+#: Controller/Admin/BanksController.php:60
+#: Controller/Admin/BanksController.php:84
+#: Controller/Admin/BillingSlipsController.php:114
+#: Controller/Admin/BillingSlipsController.php:141
+#: Controller/Admin/BillingSlipsController.php:169
+#: Controller/Admin/BillingsController.php:115
+#: Controller/Admin/BillingsController.php:155
+#: Controller/Admin/BillingsController.php:304
+#: Controller/Admin/BillingsController.php:353
+#: Controller/Admin/CategoriesController.php:76
+#: Controller/Admin/CategoriesController.php:107
+#: Controller/Admin/CheckControlsController.php:101
+#: Controller/Admin/CheckControlsController.php:132
+#: Controller/Admin/CheckControlsController.php:193
+#: Controller/Admin/CheckControlsController.php:260
+#: Controller/Admin/CompaniesController.php:79
+#: Controller/Admin/CompaniesController.php:106
+#: Controller/Admin/ContactsController.php:61
+#: Controller/Admin/ContactsController.php:86
+#: Controller/Admin/FileImportsController.php:79
+#: Controller/Admin/FileImportsController.php:109
+#: Controller/Admin/OrderEvolutionsController.php:61
+#: Controller/Admin/OrderEvolutionsController.php:88
+#: Controller/Admin/OrderProductsController.php:61
+#: Controller/Admin/OrderProductsController.php:87
+#: Controller/Admin/OrderStatusController.php:62
+#: Controller/Admin/OrderStatusController.php:87
+#: Controller/Admin/OrdersController.php:108
+#: Controller/Admin/OrdersController.php:225
+#: Controller/Admin/PartnerTypesController.php:60
+#: Controller/Admin/PartnerTypesController.php:84
+#: Controller/Admin/PartnersController.php:82
+#: Controller/Admin/PartnersController.php:109
+#: Controller/Admin/PaymentsController.php:62
+#: Controller/Admin/PaymentsController.php:87
+#: Controller/Admin/ProductsController.php:75
+#: Controller/Admin/ProductsController.php:101
+#: Controller/Admin/RulesController.php:60
+#: Controller/Admin/RulesController.php:84
+#: Controller/Admin/ShoppingCartItemsController.php:61
+#: Controller/Admin/ShoppingCartItemsController.php:87
+#: Controller/Admin/ShoppingCartsController.php:153
+#: Controller/Admin/ShoppingCartsController.php:226
+#: Controller/Admin/UsersController.php:87
+#: Controller/Admin/UsersController.php:114
+msgid "The {0} has been saved."
+msgstr ""
+
+#: Controller/Admin/AccountsController.php:65
+#: Controller/Admin/AccountsController.php:69
+#: Controller/Admin/AccountsController.php:90
+#: Controller/Admin/AccountsController.php:94
+#: Controller/Admin/AccountsController.php:112
+#: Controller/Admin/AccountsController.php:114
+#: Admin/Billings/account.php:29
+msgid "account"
+msgstr ""
+
+#: Controller/Admin/AccountsController.php:69
+#: Controller/Admin/AccountsController.php:94
+#: Controller/Admin/AddressesController.php:71
+#: Controller/Admin/AddressesController.php:95
+#: Controller/Admin/AttachmentsController.php:78
+#: Controller/Admin/AttachmentsController.php:103
+#: Controller/Admin/BanksController.php:64
+#: Controller/Admin/BanksController.php:88
+#: Controller/Admin/BillingSlipsController.php:118
+#: Controller/Admin/BillingSlipsController.php:145
+#: Controller/Admin/BillingSlipsController.php:173
+#: Controller/Admin/BillingsController.php:119
+#: Controller/Admin/BillingsController.php:159
+#: Controller/Admin/BillingsController.php:308
+#: Controller/Admin/BillingsController.php:357
+#: Controller/Admin/CategoriesController.php:80
+#: Controller/Admin/CategoriesController.php:111
+#: Controller/Admin/CheckControlsController.php:105
+#: Controller/Admin/CheckControlsController.php:136
+#: Controller/Admin/CheckControlsController.php:200
+#: Controller/Admin/CheckControlsController.php:267
+#: Controller/Admin/CompaniesController.php:83
+#: Controller/Admin/CompaniesController.php:110
+#: Controller/Admin/ContactsController.php:65
+#: Controller/Admin/ContactsController.php:90
+#: Controller/Admin/FileImportsController.php:83
+#: Controller/Admin/FileImportsController.php:113
+#: Controller/Admin/OrderEvolutionsController.php:65
+#: Controller/Admin/OrderEvolutionsController.php:92
+#: Controller/Admin/OrderProductsController.php:65
+#: Controller/Admin/OrderProductsController.php:91
+#: Controller/Admin/OrderStatusController.php:66
+#: Controller/Admin/OrderStatusController.php:91
+#: Controller/Admin/OrdersController.php:112
+#: Controller/Admin/OrdersController.php:168
+#: Controller/Admin/OrdersController.php:171
+#: Controller/Admin/OrdersController.php:194
+#: Controller/Admin/OrdersController.php:197
+#: Controller/Admin/OrdersController.php:227
+#: Controller/Admin/OrdersController.php:230
+#: Controller/Admin/PartnerTypesController.php:64
+#: Controller/Admin/PartnerTypesController.php:88
+#: Controller/Admin/PartnersController.php:86
+#: Controller/Admin/PartnersController.php:113
+#: Controller/Admin/PaymentsController.php:66
+#: Controller/Admin/PaymentsController.php:91
+#: Controller/Admin/ProductsController.php:79
+#: Controller/Admin/ProductsController.php:105
+#: Controller/Admin/RulesController.php:64
+#: Controller/Admin/RulesController.php:88
+#: Controller/Admin/ShoppingCartItemsController.php:65
+#: Controller/Admin/ShoppingCartItemsController.php:91
+#: Controller/Admin/ShoppingCartsController.php:155
+#: Controller/Admin/UsersController.php:91
+#: Controller/Admin/UsersController.php:118
+msgid "The {0} could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/AccountsController.php:112
+#: Controller/Admin/AddressesController.php:112
+#: Controller/Admin/AttachmentsController.php:121
+#: Controller/Admin/BanksController.php:105
+#: Controller/Admin/BillingsController.php:195
+#: Controller/Admin/CategoriesController.php:135
+#: Controller/Admin/CheckControlsController.php:160
+#: Controller/Admin/CompaniesController.php:130
+#: Controller/Admin/ContactsController.php:108
+#: Controller/Admin/FileImportsController.php:136
+#: Controller/Admin/OrderEvolutionsController.php:112
+#: Controller/Admin/OrderProductsController.php:110
+#: Controller/Admin/OrderProductsController.php:153
+#: Controller/Admin/OrderStatusController.php:109
+#: Controller/Admin/OrdersController.php:140
+#: Controller/Admin/PartnerTypesController.php:105
+#: Controller/Admin/PartnersController.php:133
+#: Controller/Admin/PaymentsController.php:109
+#: Controller/Admin/ProductsController.php:124
+#: Controller/Admin/RulesController.php:105
+#: Controller/Admin/ShoppingCartItemsController.php:110
+#: Controller/Admin/ShoppingCartsController.php:192
+#: Controller/Admin/UsersController.php:142
+msgid "The {0} has been deleted."
+msgstr ""
+
+#: Controller/Admin/AccountsController.php:114
+#: Controller/Admin/AddressesController.php:114
+#: Controller/Admin/AttachmentsController.php:123
+#: Controller/Admin/BanksController.php:107
+#: Controller/Admin/BillingsController.php:197
+#: Controller/Admin/CategoriesController.php:137
+#: Controller/Admin/CheckControlsController.php:162
+#: Controller/Admin/CompaniesController.php:132
+#: Controller/Admin/ContactsController.php:110
+#: Controller/Admin/FileImportsController.php:138
+#: Controller/Admin/OrderEvolutionsController.php:114
+#: Controller/Admin/OrderProductsController.php:112
+#: Controller/Admin/OrderProductsController.php:155
+#: Controller/Admin/OrderStatusController.php:111
+#: Controller/Admin/OrdersController.php:142
+#: Controller/Admin/PartnerTypesController.php:107
+#: Controller/Admin/PartnersController.php:135
+#: Controller/Admin/PaymentsController.php:111
+#: Controller/Admin/ProductsController.php:126
+#: Controller/Admin/RulesController.php:107
+#: Controller/Admin/ShoppingCartItemsController.php:112
+#: Controller/Admin/ShoppingCartsController.php:194
+#: Controller/Admin/UsersController.php:144
+msgid "The {0} could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/AddressesController.php:68
+#: Controller/Admin/AddressesController.php:71
+#: Controller/Admin/AddressesController.php:91
+#: Controller/Admin/AddressesController.php:95
+#: Controller/Admin/AddressesController.php:112
+#: Controller/Admin/AddressesController.php:114
+msgid "address"
+msgstr ""
+
+#: Controller/Admin/AdminController.php:71
+msgid "{0}-{1}.csv"
+msgstr ""
+
+#: Controller/Admin/AttachmentsController.php:74
+#: Controller/Admin/AttachmentsController.php:78
+#: Controller/Admin/AttachmentsController.php:99
+#: Controller/Admin/AttachmentsController.php:103
+#: Controller/Admin/AttachmentsController.php:121
+#: Controller/Admin/AttachmentsController.php:123
+msgid "attachment"
+msgstr ""
+
+#: Controller/Admin/BanksController.php:60
+#: Controller/Admin/BanksController.php:64
+#: Controller/Admin/BanksController.php:84
+#: Controller/Admin/BanksController.php:88
+#: Controller/Admin/BanksController.php:105
+#: Controller/Admin/BanksController.php:107
+msgid "bank"
+msgstr ""
+
+#: Controller/Admin/BillingSlipsController.php:114
+#: Controller/Admin/BillingSlipsController.php:118
+#: Controller/Admin/BillingSlipsController.php:141
+#: Controller/Admin/BillingSlipsController.php:145
+#: Controller/Admin/BillingSlipsController.php:169
+#: Controller/Admin/BillingSlipsController.php:173
+msgid "billing slip"
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:115
+#: Controller/Admin/BillingsController.php:119
+#: Controller/Admin/BillingsController.php:155
+#: Controller/Admin/BillingsController.php:159
+#: Controller/Admin/BillingsController.php:195
+#: Controller/Admin/BillingsController.php:197
+#: Controller/Admin/BillingsController.php:220
+#: Controller/Admin/BillingsController.php:222
+#: Controller/Admin/BillingsController.php:245
+#: Controller/Admin/BillingsController.php:247
+#: Controller/Admin/BillingsController.php:270
+#: Controller/Admin/BillingsController.php:272
+#: Controller/Admin/BillingsController.php:304
+#: Controller/Admin/BillingsController.php:308
+#: Controller/Admin/BillingsController.php:353
+#: Controller/Admin/BillingsController.php:357
+msgid "billing"
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:220
+msgid "The {0} has been authorization."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:222
+msgid "The {0} could not be authorization. Please, try again."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:245
+msgid "The {0} has been confirmation."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:247
+msgid "The {0} could not be confirmation. Please, try again."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:270
+msgid "The {0} has been removed."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:272
+msgid "The {0} could not be removed. Please, try again."
+msgstr ""
+
+#: Controller/Admin/BillingsController.php:384
+msgid "It is not possible because it has been confirmed."
+msgstr ""
+
+#: Controller/Admin/CategoriesController.php:76
+#: Controller/Admin/CategoriesController.php:80
+#: Controller/Admin/CategoriesController.php:107
+#: Controller/Admin/CategoriesController.php:111
+#: Controller/Admin/CategoriesController.php:135
+#: Controller/Admin/CategoriesController.php:137
+msgid "category"
+msgstr ""
+
+#: Controller/Admin/CheckControlsController.php:101
+#: Controller/Admin/CheckControlsController.php:105
+#: Controller/Admin/CheckControlsController.php:125
+#: Controller/Admin/CheckControlsController.php:132
+#: Controller/Admin/CheckControlsController.php:136
+#: Controller/Admin/CheckControlsController.php:155
+#: Controller/Admin/CheckControlsController.php:160
+#: Controller/Admin/CheckControlsController.php:162
+#: Controller/Admin/CheckControlsController.php:193
+#: Controller/Admin/CheckControlsController.php:200
+#: Controller/Admin/CheckControlsController.php:260
+#: Controller/Admin/CheckControlsController.php:267
+msgid "check control"
+msgstr ""
+
+#: Controller/Admin/CheckControlsController.php:125
+#: Controller/Admin/FileImportsController.php:102
+msgid "The {0} could not be edited."
+msgstr ""
+
+#: Controller/Admin/CheckControlsController.php:155
+#: Controller/Admin/FileImportsController.php:131
+msgid "The {0} could not be deleted."
+msgstr ""
+
+#: Controller/Admin/CheckControlsController.php:217
+msgid "Cheque: {0}"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:79
+#: Controller/Admin/CompaniesController.php:83
+#: Controller/Admin/CompaniesController.php:106
+#: Controller/Admin/CompaniesController.php:110
+#: Controller/Admin/CompaniesController.php:130
+#: Controller/Admin/CompaniesController.php:132
+#: Controller/Admin/ShoppingCartsController.php:117
+#: Admin/Billings/account.php:36
+#: Admin/Billings/account.php:44
+#: Admin/CheckControls/deposit.php:29
+msgid "company"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:152
+msgid "{0} successfully changed."
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:152
+#: Controller/Admin/CompaniesController.php:158
+#: Admin/Accounts/view.php:20
+#: Admin/BillingSlips/view.php:20
+#: Admin/Billings/view.php:20
+#: Admin/CheckControls/view.php:20
+#: Admin/FileImports/view.php:20
+#: Admin/Orders/_view.php:20
+#: Admin/Orders/view.php:76
+#: Admin/ShoppingCarts/view.php:80
+#: Admin/Users/view.php:41
+msgid "Company"
+msgstr ""
+
+#: Controller/Admin/CompaniesController.php:158
+msgid "{0} has not been changed"
+msgstr ""
+
+#: Controller/Admin/ContactsController.php:61
+#: Controller/Admin/ContactsController.php:65
+#: Controller/Admin/ContactsController.php:86
+#: Controller/Admin/ContactsController.php:90
+#: Controller/Admin/ContactsController.php:108
+#: Controller/Admin/ContactsController.php:110
+msgid "contact"
+msgstr ""
+
+#: Controller/Admin/FileImportsController.php:79
+#: Controller/Admin/FileImportsController.php:83
+#: Controller/Admin/FileImportsController.php:102
+#: Controller/Admin/FileImportsController.php:109
+#: Controller/Admin/FileImportsController.php:113
+#: Controller/Admin/FileImportsController.php:131
+#: Controller/Admin/FileImportsController.php:136
+#: Controller/Admin/FileImportsController.php:138
+#: Controller/Admin/FileImportsController.php:199
+msgid "file import"
+msgstr ""
+
+#: Controller/Admin/FileImportsController.php:199
+msgid "The {0} has been process. Created {1}"
+msgstr ""
+
+#: Controller/Admin/OrderEvolutionsController.php:61
+#: Controller/Admin/OrderEvolutionsController.php:65
+#: Controller/Admin/OrderEvolutionsController.php:88
+#: Controller/Admin/OrderEvolutionsController.php:92
+#: Controller/Admin/OrderEvolutionsController.php:112
+#: Controller/Admin/OrderEvolutionsController.php:114
+msgid "order evolution"
+msgstr ""
+
+#: Controller/Admin/OrderProductsController.php:61
+#: Controller/Admin/OrderProductsController.php:65
+#: Controller/Admin/OrderProductsController.php:87
+#: Controller/Admin/OrderProductsController.php:91
+#: Controller/Admin/OrderProductsController.php:110
+#: Controller/Admin/OrderProductsController.php:112
+#: Controller/Admin/OrderProductsController.php:131
+#: Controller/Admin/OrderProductsController.php:133
+#: Controller/Admin/OrderProductsController.php:153
+#: Controller/Admin/OrderProductsController.php:155
+msgid "order product"
+msgstr ""
+
+#: Controller/Admin/OrderProductsController.php:131
+msgid "The {0} has been activate."
+msgstr ""
+
+#: Controller/Admin/OrderProductsController.php:133
+msgid "The {0} could not be activate. Please, try again."
+msgstr ""
+
+#: Controller/Admin/OrderStatusController.php:62
+#: Controller/Admin/OrderStatusController.php:66
+#: Controller/Admin/OrderStatusController.php:87
+#: Controller/Admin/OrderStatusController.php:91
+#: Controller/Admin/OrderStatusController.php:109
+#: Controller/Admin/OrderStatusController.php:111
+msgid "order status"
+msgstr ""
+
+#: Controller/Admin/OrdersController.php:108
+#: Controller/Admin/OrdersController.php:112
+#: Controller/Admin/OrdersController.php:140
+#: Controller/Admin/OrdersController.php:142
+#: Controller/Admin/OrdersController.php:166
+#: Controller/Admin/OrdersController.php:168
+#: Controller/Admin/OrdersController.php:171
+#: Controller/Admin/OrdersController.php:192
+#: Controller/Admin/OrdersController.php:194
+#: Controller/Admin/OrdersController.php:197
+#: Controller/Admin/OrdersController.php:225
+#: Controller/Admin/OrdersController.php:227
+#: Controller/Admin/OrdersController.php:230
+#: Controller/Admin/ShoppingCartsController.php:226
+msgid "order"
+msgstr ""
+
+#: Controller/Admin/OrdersController.php:145
+msgid "There is no cancellation status. Please, try again."
+msgstr ""
+
+#: Controller/Admin/OrdersController.php:166
+#: Controller/Admin/OrdersController.php:192
+msgid "The {0} has been saved. Sent to: {1}"
+msgstr ""
+
+#: Controller/Admin/OrdersController.php:217
+msgid "Order without products and without billing value"
+msgstr ""
+
+#: Controller/Admin/OrdersController.php:248
+msgid "Pedido realizado por: {0}"
+msgstr ""
+
+#: Controller/Admin/PagesController.php:46
+msgid "Dashboard"
+msgstr ""
+
+#: Controller/Admin/PartnerTypesController.php:60
+#: Controller/Admin/PartnerTypesController.php:64
+#: Controller/Admin/PartnerTypesController.php:84
+#: Controller/Admin/PartnerTypesController.php:88
+#: Controller/Admin/PartnerTypesController.php:105
+#: Controller/Admin/PartnerTypesController.php:107
+msgid "partner type"
+msgstr ""
+
+#: Controller/Admin/PartnersController.php:82
+#: Controller/Admin/PartnersController.php:86
+#: Controller/Admin/PartnersController.php:109
+#: Controller/Admin/PartnersController.php:113
+#: Controller/Admin/PartnersController.php:133
+#: Controller/Admin/PartnersController.php:135
+#: Admin/Billings/account.php:45
+#: Admin/CheckControls/deposit.php:43
+msgid "partner"
+msgstr ""
+
+#: Controller/Admin/PaymentsController.php:62
+#: Controller/Admin/PaymentsController.php:66
+#: Controller/Admin/PaymentsController.php:87
+#: Controller/Admin/PaymentsController.php:91
+#: Controller/Admin/PaymentsController.php:109
+#: Controller/Admin/PaymentsController.php:111
+#: Controller/Admin/PaymentsController.php:125
+#: Controller/Admin/PaymentsController.php:127
+msgid "payment"
+msgstr ""
+
+#: Controller/Admin/PaymentsController.php:125
+msgid "The {0} has been generated."
+msgstr ""
+
+#: Controller/Admin/PaymentsController.php:127
+msgid "The {0} could not be generated. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ProductsController.php:75
+#: Controller/Admin/ProductsController.php:79
+#: Controller/Admin/ProductsController.php:101
+#: Controller/Admin/ProductsController.php:105
+#: Controller/Admin/ProductsController.php:124
+#: Controller/Admin/ProductsController.php:126
+msgid "product"
+msgstr ""
+
+#: Controller/Admin/RulesController.php:60
+#: Controller/Admin/RulesController.php:64
+#: Controller/Admin/RulesController.php:84
+#: Controller/Admin/RulesController.php:88
+#: Controller/Admin/RulesController.php:105
+#: Controller/Admin/RulesController.php:107
+msgid "rule"
+msgstr ""
+
+#: Controller/Admin/ShoppingCartItemsController.php:61
+#: Controller/Admin/ShoppingCartItemsController.php:65
+#: Controller/Admin/ShoppingCartItemsController.php:87
+#: Controller/Admin/ShoppingCartItemsController.php:91
+#: Controller/Admin/ShoppingCartItemsController.php:110
+#: Controller/Admin/ShoppingCartItemsController.php:112
+#: Controller/Admin/ShoppingCartsController.php:153
+#: Controller/Admin/ShoppingCartsController.php:155
+msgid "shopping cart item"
+msgstr ""
+
+#: Controller/Admin/ShoppingCartsController.php:117
+msgid "You must select a {0} to initiate the order."
+msgstr ""
+
+#: Controller/Admin/ShoppingCartsController.php:120
+msgid "{0} without registered products."
+msgstr ""
+
+#: Controller/Admin/ShoppingCartsController.php:120
+msgid "Supplier"
+msgstr ""
+
+#: Controller/Admin/ShoppingCartsController.php:192
+#: Controller/Admin/ShoppingCartsController.php:194
+msgid "shopping cart"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:87
+#: Controller/Admin/UsersController.php:91
+#: Controller/Admin/UsersController.php:114
+#: Controller/Admin/UsersController.php:118
+#: Controller/Admin/UsersController.php:142
+#: Controller/Admin/UsersController.php:144
+#: Controller/Admin/UsersController.php:165
+#: Controller/Admin/UsersController.php:167
+#: Controller/Admin/UsersController.php:191
+#: Controller/Admin/UsersController.php:195
+#: Admin/Billings/account.php:37
+#: Admin/CheckControls/deposit.php:36
+msgid "user"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:165
+#: Controller/Admin/UsersController.php:191
+msgid "The {0} has been confirmed."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:167
+#: Controller/Admin/UsersController.php:195
+msgid "The {0} could not be confirmed. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:212
+msgid "Invalid username or password"
+msgstr ""
+
+#: Controller/OrderStatusController.php:56
+#: Controller/OrderStatusController.php:81
+msgid "The order status has been saved."
+msgstr ""
+
+#: Controller/OrderStatusController.php:60
+#: Controller/OrderStatusController.php:85
+msgid "The order status could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OrderStatusController.php:103
+msgid "The order status has been deleted."
+msgstr ""
+
+#: Controller/OrderStatusController.php:105
+msgid "The order status could not be deleted. Please, try again."
+msgstr ""
+
+#: Model/Entity/CheckControl.php:85
+msgid "Bco: {0} Ag: {1} CC: {2} Nr: {3}"
+msgstr ""
+
+#: Model/Table/OrderStatusTable.php:140
+msgid "A cancellation status has already been set"
+msgstr ""
+
+#: Model/Table/OrdersTable.php:134
+msgid "This invoice cannot be moved to that status"
+msgstr ""
+
+#: Model/Table/ProductsTable.php:93
+msgid "This category is not valid for the product"
+msgstr ""
+
+#: Model/Table/ProductsTable.php:110
+msgid "Code already registered in another product"
+msgstr ""
+
+#: View/Helper/BackofficeHelper.php:64
+msgid "Filter orders by: {0}"
+msgstr ""
+
+#: View/Helper/BackofficeHelper.php:115
+msgid "Download file"
+msgstr ""
+
+#: Admin/Accounts/add.php:15
+msgid "Add Account"
+msgstr ""
+
+#: Admin/Accounts/add.php:23
+#: Admin/Accounts/edit.php:23
+#: Admin/Attachments/add.php:21
+#: Admin/Attachments/edit.php:21
+#: Admin/Banks/add.php:20
+#: Admin/Banks/edit.php:20
+#: Admin/BillingSlips/add.php:27
+#: Admin/BillingSlips/edit.php:29
+#: Admin/Billings/add.php:28
+#: Admin/Billings/edit.php:28
+#: Admin/Categories/add.php:25
+#: Admin/Categories/edit.php:25
+#: Admin/CategoriesPartners/add.php:20
+#: Admin/CategoriesPartners/edit.php:20
+#: Admin/CheckControls/add.php:37
+#: Admin/CheckControls/edit.php:37
+#: Admin/Companies/add.php:34
+#: Admin/Companies/edit.php:34
+#: Admin/Contacts/add.php:24
+#: Admin/Contacts/edit.php:24
+#: Admin/FileImports/add.php:22
+#: Admin/FileImports/edit.php:22
+#: Admin/OrderEvolutions/add.php:26
+#: Admin/OrderEvolutions/edit.php:26
+#: Admin/OrderProducts/add.php:26
+#: Admin/OrderProducts/edit.php:26
+#: Admin/OrderStatus/add.php:28
+#: Admin/OrderStatus/edit.php:28
+#: Admin/Orders/add.php:35
+#: Admin/Orders/edit.php:36
+#: Admin/PartnerTypes/add.php:21
+#: Admin/PartnerTypes/edit.php:21
+#: Admin/Partners/add.php:33
+#: Admin/Partners/edit.php:33
+#: Admin/Payments/add.php:25
+#: Admin/Payments/edit.php:25
+#: Admin/Products/add.php:29
+#: Admin/Products/edit.php:29
+#: Admin/Rules/add.php:20
+#: Admin/Rules/edit.php:20
+#: Admin/ShoppingCartItems/add.php:25
+#: Admin/ShoppingCartItems/edit.php:25
+#: Admin/ShoppingCarts/edit.php:29
+#: Admin/Users/add.php:30
+#: Admin/Users/edit.php:30
+msgid "Submit"
+msgstr ""
+
+#: Admin/Accounts/edit.php:15
+msgid "Edit Account"
+msgstr ""
+
+#: Admin/Accounts/extract.php:25
+#: Admin/BillingSlips/index.php:17
+#: Admin/Billings/index.php:22
+#: Admin/Companies/view.php:40
+#: Admin/Companies/view.php:175
+msgid "Information"
+msgstr ""
+
+#: Admin/Accounts/extract.php:48
+#: Admin/Accounts/view.php:45
+#: Admin/Addresses/view.php:151
+#: Admin/Attachments/view.php:41
+#: Admin/Banks/view.php:41
+#: Admin/BillingSlips/view.php:130
+#: Admin/Billings/view.php:116
+#: Admin/Categories/view.php:136
+#: Admin/CategoriesPartners/view.php:25
+#: Admin/CheckControls/view.php:96
+#: Admin/Companies/view.php:397
+#: Admin/Contacts/view.php:49
+#: Admin/FileImports/view.php:82
+#: Admin/OrderEvolutions/view.php:49
+#: Admin/OrderProducts/view.php:52
+#: Admin/OrderStatus/view.php:172
+#: Admin/Orders/_view.php:134
+#: Admin/Orders/view.php:159
+#: Admin/PartnerTypes/view.php:72
+#: Admin/Partners/view.php:248
+#: Admin/Payments/view.php:78
+#: Admin/Products/view.php:105
+#: Admin/Rules/view.php:60
+#: Admin/ShoppingCartItems/view.php:49
+#: Admin/Users/view.php:191
+msgid "Go back"
+msgstr ""
+
+#: Admin/Accounts/index.php:22
+#: Admin/Addresses/view.php:90
+#: Admin/Addresses/view.php:129
+#: Admin/Attachments/index.php:21
+#: Admin/Banks/index.php:20
+#: Admin/BillingSlips/index.php:22
+#: Admin/BillingSlips/view.php:106
+#: Admin/Billings/index.php:27
+#: Admin/Billings/view.php:95
+#: Admin/Categories/index.php:20
+#: Admin/Categories/view.php:52
+#: Admin/Categories/view.php:81
+#: Admin/Categories/view.php:114
+#: Admin/CategoriesPartners/index.php:17
+#: Admin/CheckControls/index.php:31
+#: Admin/Companies/index.php:22
+#: Admin/Companies/view.php:75
+#: Admin/Companies/view.php:130
+#: Admin/Companies/view.php:180
+#: Admin/Companies/view.php:216
+#: Admin/Companies/view.php:252
+#: Admin/Companies/view.php:291
+#: Admin/Companies/view.php:328
+#: Admin/Companies/view.php:370
+#: Admin/Contacts/index.php:23
+#: Admin/FileImports/index.php:20
+#: Admin/FileImports/view.php:58
+#: Admin/OrderEvolutions/index.php:23
+#: Admin/OrderProducts/index.php:24
+#: Admin/OrderStatus/index.php:21
+#: Admin/OrderStatus/view.php:71
+#: Admin/OrderStatus/view.php:108
+#: Admin/OrderStatus/view.php:148
+#: Admin/Orders/_view.php:76
+#: Admin/Orders/_view.php:112
+#: Admin/Orders/index.php:23
+#: Admin/Orders/view.php:121
+#: Admin/Pages/dashboard.php:22
+#: Admin/PartnerTypes/index.php:20
+#: Admin/PartnerTypes/view.php:51
+#: Admin/Partners/index.php:22
+#: Admin/Partners/view.php:64
+#: Admin/Partners/view.php:107
+#: Admin/Partners/view.php:152
+#: Admin/Partners/view.php:188
+#: Admin/Partners/view.php:226
+#: Admin/Payments/index.php:20
+#: Admin/Payments/view.php:60
+#: Admin/Products/index.php:22
+#: Admin/Products/view.php:83
+#: Admin/Rules/index.php:19
+#: Admin/Rules/view.php:43
+#: Admin/ShoppingCartItems/index.php:23
+#: Admin/ShoppingCarts/index.php:24
+#: Admin/ShoppingCarts/view.php:126
+#: Admin/Users/index.php:22
+#: Admin/Users/view.php:92
+#: Admin/Users/view.php:130
+#: Admin/Users/view.php:169
+#: Admin/element/table-actions.php:25
+msgid "Actions"
+msgstr ""
+
+#: Admin/Accounts/index.php:36
+msgid "{0} Extract"
+msgstr ""
+
+#: Admin/Accounts/view.php:16
+#: Admin/Addresses/view.php:16
+#: Admin/Addresses/view.php:79
+#: Admin/Addresses/view.php:120
+#: Admin/Attachments/view.php:16
+#: Admin/Banks/view.php:16
+#: Admin/BillingSlips/view.php:16
+#: Admin/BillingSlips/view.php:95
+#: Admin/Billings/view.php:16
+#: Admin/Billings/view.php:87
+#: Admin/Categories/view.php:16
+#: Admin/Categories/view.php:47
+#: Admin/Categories/view.php:76
+#: Admin/Categories/view.php:105
+#: Admin/CheckControls/view.php:16
+#: Admin/Companies/view.php:16
+#: Admin/Companies/view.php:59
+#: Admin/Companies/view.php:110
+#: Admin/Companies/view.php:169
+#: Admin/Companies/view.php:210
+#: Admin/Companies/view.php:241
+#: Admin/Companies/view.php:282
+#: Admin/Companies/view.php:319
+#: Admin/Companies/view.php:356
+#: Admin/Contacts/view.php:16
+#: Admin/FileImports/view.php:16
+#: Admin/FileImports/view.php:47
+#: Admin/OrderEvolutions/view.php:16
+#: Admin/OrderProducts/view.php:16
+#: Admin/OrderStatus/view.php:16
+#: Admin/OrderStatus/view.php:63
+#: Admin/OrderStatus/view.php:98
+#: Admin/OrderStatus/view.php:137
+#: Admin/Orders/_view.php:16
+#: Admin/Orders/_view.php:68
+#: Admin/Orders/_view.php:103
+#: Admin/PartnerTypes/view.php:16
+#: Admin/PartnerTypes/view.php:43
+#: Admin/Partners/view.php:16
+#: Admin/Partners/view.php:59
+#: Admin/Partners/view.php:88
+#: Admin/Partners/view.php:145
+#: Admin/Partners/view.php:178
+#: Admin/Partners/view.php:217
+#: Admin/Payments/view.php:16
+#: Admin/Products/view.php:16
+#: Admin/Products/view.php:74
+#: Admin/Rules/view.php:20
+#: Admin/ShoppingCartItems/view.php:16
+#: Admin/Users/view.php:33
+#: Admin/Users/view.php:84
+#: Admin/Users/view.php:119
+#: Admin/Users/view.php:160
+msgid "Id"
+msgstr ""
+
+#: Admin/Accounts/view.php:24
+#: Admin/CheckControls/view.php:40
+#: Admin/Companies/view.php:116
+#: Admin/FileImports/view.php:51
+#: Admin/Partners/view.php:93
+msgid "Agency"
+msgstr ""
+
+#: Admin/Accounts/view.php:28
+#: Admin/CheckControls/view.php:44
+#: Admin/Companies/view.php:117
+#: Admin/FileImports/view.php:52
+#: Admin/Partners/view.php:94
+msgid "Account"
+msgstr ""
+
+#: Admin/Accounts/view.php:32
+#: Admin/CheckControls/view.php:36
+#: Admin/Companies/view.php:115
+#: Admin/FileImports/view.php:50
+#: Admin/Partners/view.php:92
+msgid "Bank"
+msgstr ""
+
+#: Admin/Accounts/view.php:36
+#: Admin/Addresses/view.php:64
+#: Admin/Addresses/view.php:88
+#: Admin/Addresses/view.php:127
+#: Admin/Attachments/view.php:32
+#: Admin/Banks/view.php:28
+#: Admin/BillingSlips/view.php:80
+#: Admin/BillingSlips/view.php:104
+#: Admin/Billings/view.php:72
+#: Admin/Billings/view.php:93
+#: Admin/Categories/view.php:32
+#: Admin/Categories/view.php:50
+#: Admin/Categories/view.php:79
+#: Admin/Categories/view.php:112
+#: Admin/CheckControls/view.php:87
+#: Admin/Companies/view.php:44
+#: Admin/Companies/view.php:73
+#: Admin/Companies/view.php:128
+#: Admin/Companies/view.php:178
+#: Admin/Companies/view.php:214
+#: Admin/Companies/view.php:250
+#: Admin/Companies/view.php:289
+#: Admin/Companies/view.php:326
+#: Admin/Companies/view.php:368
+#: Admin/Contacts/view.php:40
+#: Admin/FileImports/view.php:28
+#: Admin/FileImports/view.php:56
+#: Admin/OrderEvolutions/view.php:40
+#: Admin/OrderProducts/view.php:43
+#: Admin/OrderStatus/view.php:44
+#: Admin/OrderStatus/view.php:69
+#: Admin/OrderStatus/view.php:106
+#: Admin/OrderStatus/view.php:146
+#: Admin/Orders/_view.php:52
+#: Admin/Orders/_view.php:74
+#: Admin/Orders/_view.php:110
+#: Admin/Orders/view.php:96
+#: Admin/PartnerTypes/view.php:28
+#: Admin/PartnerTypes/view.php:49
+#: Admin/Partners/view.php:44
+#: Admin/Partners/view.php:62
+#: Admin/Partners/view.php:105
+#: Admin/Partners/view.php:150
+#: Admin/Partners/view.php:186
+#: Admin/Partners/view.php:224
+#: Admin/Payments/view.php:40
+#: Admin/Payments/view.php:58
+#: Admin/Products/view.php:58
+#: Admin/Products/view.php:81
+#: Admin/Rules/view.php:24
+#: Admin/Rules/view.php:41
+#: Admin/ShoppingCartItems/view.php:40
+#: Admin/ShoppingCarts/view.php:100
+#: Admin/Users/view.php:65
+#: Admin/Users/view.php:90
+#: Admin/Users/view.php:128
+#: Admin/Users/view.php:167
+msgid "Created"
+msgstr ""
+
+#: Admin/Accounts/view.php:40
+#: Admin/Addresses/view.php:68
+#: Admin/Addresses/view.php:89
+#: Admin/Addresses/view.php:128
+#: Admin/Attachments/view.php:36
+#: Admin/Banks/view.php:32
+#: Admin/BillingSlips/view.php:84
+#: Admin/BillingSlips/view.php:105
+#: Admin/Billings/view.php:76
+#: Admin/Billings/view.php:94
+#: Admin/Categories/view.php:36
+#: Admin/Categories/view.php:51
+#: Admin/Categories/view.php:80
+#: Admin/Categories/view.php:113
+#: Admin/CheckControls/view.php:91
+#: Admin/Companies/view.php:48
+#: Admin/Companies/view.php:74
+#: Admin/Companies/view.php:129
+#: Admin/Companies/view.php:179
+#: Admin/Companies/view.php:215
+#: Admin/Companies/view.php:251
+#: Admin/Companies/view.php:290
+#: Admin/Companies/view.php:327
+#: Admin/Companies/view.php:369
+#: Admin/Contacts/view.php:44
+#: Admin/FileImports/view.php:32
+#: Admin/FileImports/view.php:57
+#: Admin/OrderEvolutions/view.php:44
+#: Admin/OrderProducts/view.php:47
+#: Admin/OrderStatus/view.php:48
+#: Admin/OrderStatus/view.php:70
+#: Admin/OrderStatus/view.php:107
+#: Admin/OrderStatus/view.php:147
+#: Admin/Orders/_view.php:56
+#: Admin/Orders/_view.php:75
+#: Admin/Orders/_view.php:111
+#: Admin/PartnerTypes/view.php:32
+#: Admin/PartnerTypes/view.php:50
+#: Admin/Partners/view.php:48
+#: Admin/Partners/view.php:63
+#: Admin/Partners/view.php:106
+#: Admin/Partners/view.php:151
+#: Admin/Partners/view.php:187
+#: Admin/Partners/view.php:225
+#: Admin/Payments/view.php:44
+#: Admin/Payments/view.php:59
+#: Admin/Products/view.php:62
+#: Admin/Products/view.php:82
+#: Admin/Rules/view.php:28
+#: Admin/Rules/view.php:42
+#: Admin/ShoppingCartItems/view.php:44
+#: Admin/Users/view.php:69
+#: Admin/Users/view.php:91
+#: Admin/Users/view.php:129
+#: Admin/Users/view.php:168
+msgid "Modified"
+msgstr ""
+
+#: Admin/Addresses/add.php:3
+#: Admin/Addresses/edit.php:3
+msgid "{0} address"
+msgstr ""
+
+#: Admin/Addresses/add.php:25
+#: Admin/Addresses/edit.php:25
+#: Admin/BillingSlips/waiting.php:13
+#: Admin/Billings/waiting.php:13
+#: Admin/ShoppingCarts/add_item.php:15
+msgid "Close"
+msgstr ""
+
+#: Admin/Addresses/add.php:26
+#: Admin/Addresses/edit.php:26
+#: Admin/BillingSlips/waiting.php:14
+#: Admin/Billings/account.php:30
+#: Admin/Billings/account.php:38
+#: Admin/Billings/account.php:46
+#: Admin/Billings/waiting.php:14
+#: Admin/CheckControls/deposit.php:30
+#: Admin/CheckControls/deposit.php:37
+#: Admin/CheckControls/deposit.php:44
+#: Admin/ShoppingCarts/add_item.php:16
+msgid "Save changes"
+msgstr ""
+
+#: Admin/Addresses/view.php:20
+#: Admin/Attachments/view.php:20
+#: Admin/BillingSlips/view.php:24
+#: Admin/Billings/view.php:24
+#: Admin/Companies/view.php:61
+msgid "Model"
+msgstr ""
+
+#: Admin/Addresses/view.php:24
+#: Admin/Attachments/view.php:24
+#: Admin/BillingSlips/view.php:28
+#: Admin/Billings/view.php:28
+#: Admin/Companies/view.php:62
+msgid "Foreing Key"
+msgstr ""
+
+#: Admin/Addresses/view.php:28
+#: Admin/Banks/view.php:24
+#: Admin/Categories/view.php:24
+#: Admin/Categories/view.php:48
+#: Admin/Categories/view.php:78
+#: Admin/Categories/view.php:106
+#: Admin/Companies/view.php:24
+#: Admin/Companies/view.php:171
+#: Admin/Companies/view.php:284
+#: Admin/Companies/view.php:359
+#: Admin/Contacts/view.php:24
+#: Admin/OrderStatus/view.php:24
+#: Admin/OrderStatus/view.php:100
+#: Admin/PartnerTypes/view.php:20
+#: Admin/PartnerTypes/view.php:44
+#: Admin/Partners/view.php:24
+#: Admin/Partners/view.php:60
+#: Admin/Partners/view.php:146
+#: Admin/Payments/view.php:20
+#: Admin/Payments/view.php:55
+#: Admin/Products/view.php:24
+#: Admin/Rules/view.php:16
+#: Admin/Rules/view.php:39
+#: Admin/Users/view.php:45
+msgid "Name"
+msgstr ""
+
+#: Admin/Addresses/view.php:32
+#: Admin/Orders/_view.php:36
+#: Admin/Orders/view.php:88
+#: Admin/ShoppingCarts/view.php:92
+msgid "Address"
+msgstr ""
+
+#: Admin/Addresses/view.php:36
+msgid "Complement"
+msgstr ""
+
+#: Admin/Addresses/view.php:40
+msgid "Neighbourhood"
+msgstr ""
+
+#: Admin/Addresses/view.php:44
+msgid "City"
+msgstr ""
+
+#: Admin/Addresses/view.php:48
+msgid "State"
+msgstr ""
+
+#: Admin/Addresses/view.php:52
+#: Admin/BillingSlips/view.php:32
+#: Admin/Billings/view.php:32
+#: Admin/Companies/view.php:66
+#: Admin/Companies/view.php:288
+#: Admin/Payments/view.php:28
+msgid "Type"
+msgstr ""
+
+#: Admin/Addresses/view.php:56
+#: Admin/CheckControls/view.php:48
+#: Admin/Companies/view.php:118
+#: Admin/FileImports/view.php:53
+#: Admin/Partners/view.php:95
+msgid "Number"
+msgstr ""
+
+#: Admin/Addresses/view.php:60
+msgid "Zip Code"
+msgstr ""
+
+#: Admin/Addresses/view.php:75
+#: Admin/BillingSlips/view.php:91
+#: Admin/Billings/view.php:83
+#: Admin/Companies/view.php:237
+#: Admin/OrderStatus/view.php:133
+#: Admin/Partners/view.php:174
+#: Admin/Users/view.php:115
+msgid "Related Orders"
+msgstr ""
+
+#: Admin/Addresses/view.php:80
+#: Admin/Addresses/view.php:121
+#: Admin/BillingSlips/view.php:96
+#: Admin/Companies/view.php:60
+#: Admin/Companies/view.php:111
+#: Admin/Companies/view.php:211
+#: Admin/Companies/view.php:242
+#: Admin/Companies/view.php:283
+#: Admin/Companies/view.php:320
+#: Admin/Companies/view.php:358
+#: Admin/FileImports/view.php:48
+#: Admin/OrderStatus/view.php:138
+#: Admin/Partners/view.php:89
+#: Admin/Partners/view.php:179
+#: Admin/Partners/view.php:218
+#: Admin/Users/view.php:120
+#: Admin/Users/view.php:161
+msgid "Company Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:81
+#: Admin/Addresses/view.php:122
+#: Admin/BillingSlips/view.php:97
+#: Admin/Companies/view.php:113
+#: Admin/Companies/view.php:243
+#: Admin/Companies/view.php:321
+#: Admin/OrderStatus/view.php:139
+#: Admin/Partners/view.php:219
+#: Admin/Users/view.php:121
+#: Admin/Users/view.php:162
+msgid "Partner Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:82
+#: Admin/Addresses/view.php:123
+#: Admin/BillingSlips/view.php:98
+#: Admin/Companies/view.php:244
+#: Admin/Companies/view.php:322
+#: Admin/OrderStatus/view.php:64
+#: Admin/OrderStatus/view.php:140
+#: Admin/Orders/_view.php:69
+#: Admin/Partners/view.php:180
+#: Admin/Partners/view.php:220
+#: Admin/Users/view.php:85
+#: Admin/Users/view.php:122
+#: Admin/Users/view.php:163
+msgid "User Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:83
+#: Admin/BillingSlips/view.php:99
+#: Admin/Companies/view.php:245
+#: Admin/OrderStatus/view.php:66
+#: Admin/OrderStatus/view.php:141
+#: Admin/Orders/_view.php:71
+#: Admin/Partners/view.php:181
+#: Admin/Users/view.php:87
+#: Admin/Users/view.php:123
+msgid "Order Status Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:84
+#: Admin/Addresses/view.php:124
+#: Admin/BillingSlips/view.php:100
+#: Admin/Companies/view.php:246
+#: Admin/Companies/view.php:323
+#: Admin/OrderStatus/view.php:142
+#: Admin/Partners/view.php:182
+#: Admin/Partners/view.php:221
+#: Admin/Users/view.php:124
+#: Admin/Users/view.php:164
+msgid "Address Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:85
+#: Admin/BillingSlips/view.php:101
+#: Admin/Companies/view.php:247
+#: Admin/OrderStatus/view.php:143
+#: Admin/Partners/view.php:183
+#: Admin/Users/view.php:125
+msgid "Billing Id"
+msgstr ""
+
+#: Admin/Addresses/view.php:86
+#: Admin/Addresses/view.php:125
+#: Admin/BillingSlips/view.php:102
+#: Admin/Billings/view.php:91
+#: Admin/Companies/view.php:248
+#: Admin/Companies/view.php:324
+#: Admin/OrderStatus/view.php:144
+#: Admin/Orders/_view.php:44
+#: Admin/Orders/view.php:92
+#: Admin/Partners/view.php:184
+#: Admin/Partners/view.php:222
+#: Admin/ShoppingCarts/view.php:96
+#: Admin/Users/view.php:126
+#: Admin/Users/view.php:165
+msgid "Delivery Date"
+msgstr ""
+
+#: Admin/Addresses/view.php:87
+#: Admin/Addresses/view.php:126
+#: Admin/BillingSlips/view.php:103
+#: Admin/Billings/view.php:92
+#: Admin/Companies/view.php:249
+#: Admin/Companies/view.php:325
+#: Admin/Contacts/view.php:36
+#: Admin/OrderStatus/view.php:145
+#: Admin/Orders/_view.php:48
+#: Admin/PartnerTypes/view.php:47
+#: Admin/Partners/view.php:40
+#: Admin/Partners/view.php:149
+#: Admin/Partners/view.php:185
+#: Admin/Partners/view.php:223
+#: Admin/Users/view.php:127
+#: Admin/Users/view.php:166
+msgid "Observations"
+msgstr ""
+
+#: Admin/Addresses/view.php:116
+#: Admin/Companies/view.php:315
+#: Admin/Partners/view.php:213
+#: Admin/Users/view.php:156
+msgid "Related Shopping Carts"
+msgstr ""
+
+#: Admin/Attachments/add.php:14
+msgid "Add Attachment"
+msgstr ""
+
+#: Admin/Attachments/edit.php:14
+msgid "Edit Attachment"
+msgstr ""
+
+#: Admin/Attachments/view.php:28
+#: Admin/BillingSlips/view.php:44
+#: Admin/BillingSlips/view.php:76
+#: Admin/Companies/view.php:212
+#: Admin/FileImports/view.php:24
+msgid "Archive"
+msgstr ""
+
+#: Admin/Banks/add.php:14
+msgid "Add Bank"
+msgstr ""
+
+#: Admin/Banks/edit.php:14
+msgid "Edit Bank"
+msgstr ""
+
+#: Admin/Banks/view.php:20
+#: Admin/Categories/view.php:107
+#: Admin/Products/view.php:28
+msgid "Code"
+msgstr ""
+
+#: Admin/Banks/view.php:36
+#: Admin/OrderStatus/view.php:52
+#: Admin/OrderStatus/view.php:103
+#: Admin/PartnerTypes/view.php:48
+#: Admin/Partners/view.php:36
+msgid "Active"
+msgstr ""
+
+#: Admin/Banks/view.php:37
+#: Admin/BillingSlips/view.php:53
+#: Admin/BillingSlips/view.php:65
+#: Admin/Billings/view.php:45
+#: Admin/Billings/view.php:57
+#: Admin/Categories/view.php:124
+#: Admin/CheckControls/view.php:69
+#: Admin/CheckControls/view.php:77
+#: Admin/FileImports/index.php:31
+#: Admin/FileImports/view.php:37
+#: Admin/OrderProducts/view.php:41
+#: Admin/OrderStatus/index.php:30
+#: Admin/OrderStatus/view.php:53
+#: Admin/PartnerTypes/index.php:28
+#: Admin/PartnerTypes/view.php:25
+#: Admin/PartnerTypes/view.php:60
+#: Admin/Partners/index.php:32
+#: Admin/Partners/view.php:37
+#: Admin/Products/view.php:47
+msgid "Yes"
+msgstr ""
+
+#: Admin/Banks/view.php:37
+#: Admin/BillingSlips/view.php:53
+#: Admin/BillingSlips/view.php:65
+#: Admin/Billings/view.php:45
+#: Admin/Billings/view.php:57
+#: Admin/Categories/view.php:124
+#: Admin/CheckControls/view.php:69
+#: Admin/CheckControls/view.php:77
+#: Admin/FileImports/index.php:31
+#: Admin/FileImports/view.php:37
+#: Admin/OrderProducts/view.php:41
+#: Admin/OrderStatus/index.php:30
+#: Admin/OrderStatus/view.php:53
+#: Admin/PartnerTypes/index.php:28
+#: Admin/PartnerTypes/view.php:25
+#: Admin/PartnerTypes/view.php:60
+#: Admin/Partners/index.php:32
+#: Admin/Partners/view.php:37
+#: Admin/Products/view.php:47
+msgid "No"
+msgstr ""
+
+#: Admin/BillingSlips/add.php:17
+#: Admin/Billings/add.php:17
+msgid "Add Billing"
+msgstr ""
+
+#: Admin/BillingSlips/edit.php:17
+#: Admin/Billings/edit.php:17
+msgid "Edit Billing"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:28
+msgid "<i class=\"bi bi-arrows-collapse text-info\"></i>"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:51
+msgid "Pending authorization"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:53
+#: Admin/Billings/index.php:73
+#: Admin/Orders/view.php:137
+msgid "btn btn-success {0}"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:53
+msgid "Authorization"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:62
+#: Admin/Billings/index.php:64
+msgid "btn btn-outline-secondary {0}"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:63
+#: Admin/Billings/index.php:65
+#: Admin/CheckControls/index.php:62
+msgid "Pending confirmation"
+msgstr ""
+
+#: Admin/BillingSlips/index.php:71
+#: Admin/BillingSlips/view.php:52
+#: Admin/Billings/index.php:73
+#: Admin/Billings/view.php:44
+#: Admin/CheckControls/index.php:65
+#: Admin/CheckControls/view.php:68
+#: Admin/Companies/view.php:67
+#: Admin/Companies/view.php:122
+#: Admin/Partners/view.php:99
+msgid "Confirmation"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:36
+#: Admin/Billings/view.php:89
+#: Admin/CheckControls/view.php:56
+#: Admin/OrderEvolutions/view.php:20
+#: Admin/Orders/_view.php:28
+#: Admin/Orders/view.php:84
+#: Admin/ShoppingCarts/view.php:88
+msgid "User"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:40
+#: Admin/Billings/view.php:36
+#: Admin/CheckControls/view.php:60
+#: Admin/Companies/view.php:65
+#: Admin/Companies/view.php:119
+#: Admin/Companies/view.php:285
+#: Admin/FileImports/view.php:54
+#: Admin/Partners/view.php:96
+#: Admin/Payments/view.php:32
+msgid "Value"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:48
+#: Admin/Billings/view.php:40
+#: Admin/CheckControls/view.php:64
+#: Admin/Companies/view.php:63
+#: Admin/Companies/view.php:120
+#: Admin/FileImports/view.php:55
+#: Admin/Partners/view.php:97
+msgid "Deadline"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:56
+#: Admin/CheckControls/view.php:52
+#: Admin/Companies/view.php:68
+#: Admin/Companies/view.php:123
+#: Admin/Partners/view.php:100
+msgid "Confirmation User Id"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:60
+#: Admin/Billings/view.php:52
+#: Admin/CheckControls/view.php:72
+#: Admin/Companies/view.php:69
+#: Admin/Companies/view.php:124
+#: Admin/Partners/view.php:101
+msgid "Confirmation Date"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:64
+#: Admin/Billings/view.php:56
+#: Admin/Companies/view.php:70
+#: Admin/OrderProducts/view.php:40
+#: Admin/Orders/_view.php:109
+#: Admin/Products/view.php:80
+msgid "Removed"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:68
+#: Admin/Billings/view.php:64
+#: Admin/Companies/view.php:72
+msgid "Removed Date"
+msgstr ""
+
+#: Admin/BillingSlips/view.php:72
+#: Admin/Billings/view.php:68
+#: Admin/CheckControls/view.php:83
+#: Admin/Companies/view.php:64
+#: Admin/Companies/view.php:121
+#: Admin/Partners/view.php:98
+msgid "Description"
+msgstr ""
+
+#: Admin/BillingSlips/waiting.php:9
+#: Admin/Billings/account.php:26
+#: Admin/Billings/waiting.php:9
+msgid "{0}: {1}"
+msgstr ""
+
+#: Admin/BillingSlips/waiting.php:10
+msgid "Accounts"
+msgstr ""
+
+#: Admin/Billings/account.php:2
+msgid "Confirm {0}"
+msgstr ""
+
+#: Admin/Billings/account.php:11
+#: Admin/CheckControls/deposit.php:11
+msgid "Companies"
+msgstr ""
+
+#: Admin/Billings/account.php:16
+#: Admin/CheckControls/deposit.php:16
+msgid "Users"
+msgstr ""
+
+#: Admin/Billings/account.php:21
+#: Admin/CheckControls/deposit.php:21
+msgid "Partners"
+msgstr ""
+
+#: Admin/Billings/account.php:29
+#: Admin/Billings/account.php:36
+#: Admin/Billings/account.php:37
+#: Admin/Billings/account.php:44
+#: Admin/Billings/account.php:45
+#: Admin/CheckControls/deposit.php:29
+#: Admin/CheckControls/deposit.php:36
+#: Admin/CheckControls/deposit.php:43
+msgid "Select one {0}..."
+msgstr ""
+
+#: Admin/Billings/add.php:22
+#: Admin/Billings/edit.php:22
+msgid "Input"
+msgstr ""
+
+#: Admin/Billings/add.php:22
+#: Admin/Billings/edit.php:22
+msgid "Output"
+msgstr ""
+
+#: Admin/Billings/view.php:48
+msgid "Confirmation User"
+msgstr ""
+
+#: Admin/Billings/view.php:60
+msgid "Removed User"
+msgstr ""
+
+#: Admin/Billings/view.php:88
+#: Admin/CategoriesPartners/view.php:20
+#: Admin/CheckControls/view.php:28
+#: Admin/Contacts/view.php:20
+#: Admin/Orders/_view.php:24
+#: Admin/Orders/view.php:80
+#: Admin/ShoppingCarts/view.php:84
+msgid "Partner"
+msgstr ""
+
+#: Admin/Billings/view.php:90
+#: Admin/OrderEvolutions/view.php:28
+#: Admin/Orders/_view.php:32
+msgid "Order Status"
+msgstr ""
+
+#: Admin/Categories/add.php:17
+msgid "Add Category"
+msgstr ""
+
+#: Admin/Categories/edit.php:17
+msgid "Edit Category"
+msgstr ""
+
+#: Admin/Categories/view.php:20
+#: Admin/Companies/view.php:170
+#: Admin/OrderStatus/view.php:99
+msgid "Parent Id"
+msgstr ""
+
+#: Admin/Categories/view.php:28
+#: Admin/Categories/view.php:77
+#: Admin/Orders/view.php:116
+#: Admin/PartnerTypes/view.php:46
+#: Admin/Partners/view.php:32
+#: Admin/Partners/view.php:61
+#: Admin/Products/view.php:32
+#: Admin/ShoppingCarts/view.php:120
+msgid "Image"
+msgstr ""
+
+#: Admin/Categories/view.php:43
+#: Admin/PartnerTypes/view.php:38
+msgid "Related Partners"
+msgstr ""
+
+#: Admin/Categories/view.php:49
+#: Admin/CheckControls/view.php:32
+#: Admin/Companies/view.php:28
+#: Admin/Companies/view.php:114
+#: Admin/Companies/view.php:172
+#: Admin/FileImports/view.php:49
+#: Admin/PartnerTypes/view.php:45
+#: Admin/Partners/view.php:28
+#: Admin/Partners/view.php:91
+#: Admin/Payments/view.php:56
+msgid "Document"
+msgstr ""
+
+#: Admin/Categories/view.php:72
+#: Admin/Partners/view.php:55
+msgid "Related Categories"
+msgstr ""
+
+#: Admin/Categories/view.php:101
+msgid "Related Products"
+msgstr ""
+
+#: Admin/Categories/view.php:108
+#: Admin/Products/view.php:38
+msgid "Store Stock"
+msgstr ""
+
+#: Admin/Categories/view.php:109
+#: Admin/Products/view.php:42
+msgid "Reserve Stock"
+msgstr ""
+
+#: Admin/Categories/view.php:110
+#: Admin/Products/view.php:50
+msgid "History Price"
+msgstr ""
+
+#: Admin/Categories/view.php:111
+#: Admin/Products/view.php:46
+msgid "Validate Stock"
+msgstr ""
+
+#: Admin/CategoriesPartners/add.php:16
+msgid "Add Categories Partner"
+msgstr ""
+
+#: Admin/CategoriesPartners/edit.php:16
+msgid "Edit Categories Partner"
+msgstr ""
+
+#: Admin/CategoriesPartners/view.php:16
+#: Admin/Products/view.php:20
+msgid "Category"
+msgstr ""
+
+#: Admin/CheckControls/add.php:18
+msgid "Add Check Control"
+msgstr ""
+
+#: Admin/CheckControls/deposit.php:2
+#: Admin/CheckControls/index.php:63
+#: Admin/CheckControls/index.php:72
+#: Admin/CheckControls/index.php:77
+msgid "Deposit"
+msgstr ""
+
+#: Admin/CheckControls/edit.php:18
+msgid "Edit Check Control"
+msgstr ""
+
+#: Admin/CheckControls/view.php:24
+msgid "File Import"
+msgstr ""
+
+#: Admin/CheckControls/view.php:76
+#: Admin/Companies/view.php:125
+#: Admin/Partners/view.php:102
+msgid "Destination"
+msgstr ""
+
+#: Admin/CheckControls/view.php:79
+#: Admin/Companies/view.php:127
+#: Admin/Partners/view.php:104
+msgid "Destination Date"
+msgstr ""
+
+#: Admin/Companies/add.php:23
+msgid "Add Company"
+msgstr ""
+
+#: Admin/Companies/edit.php:23
+msgid "Edit Company"
+msgstr ""
+
+#: Admin/Companies/view.php:20
+msgid "Parent Company"
+msgstr ""
+
+#: Admin/Companies/view.php:32
+#: Admin/Companies/view.php:173
+msgid "Logo"
+msgstr ""
+
+#: Admin/Companies/view.php:36
+#: Admin/Companies/view.php:174
+#: Admin/Companies/view.php:362
+#: Admin/Contacts/view.php:32
+#: Admin/Partners/view.php:148
+#: Admin/Payments/view.php:57
+#: Admin/Rules/view.php:40
+#: Admin/Users/view.php:53
+msgid "Phone"
+msgstr ""
+
+#: Admin/Companies/view.php:55
+msgid "Related Billings"
+msgstr ""
+
+#: Admin/Companies/view.php:71
+msgid "Removed User Id"
+msgstr ""
+
+#: Admin/Companies/view.php:106
+#: Admin/FileImports/view.php:42
+#: Admin/Partners/view.php:84
+msgid "Related Check Controls"
+msgstr ""
+
+#: Admin/Companies/view.php:112
+#: Admin/Partners/view.php:90
+msgid "File Import Id"
+msgstr ""
+
+#: Admin/Companies/view.php:126
+#: Admin/Partners/view.php:103
+msgid "Destination User Id"
+msgstr ""
+
+#: Admin/Companies/view.php:165
+#: Admin/Payments/view.php:50
+msgid "Related Companies"
+msgstr ""
+
+#: Admin/Companies/view.php:176
+#: Admin/OrderStatus/view.php:36
+#: Admin/OrderStatus/view.php:104
+msgid "Lft"
+msgstr ""
+
+#: Admin/Companies/view.php:177
+#: Admin/OrderStatus/view.php:40
+#: Admin/OrderStatus/view.php:105
+msgid "Rght"
+msgstr ""
+
+#: Admin/Companies/view.php:206
+msgid "Related File Imports"
+msgstr ""
+
+#: Admin/Companies/view.php:213
+#: Admin/FileImports/view.php:36
+msgid "Finished"
+msgstr ""
+
+#: Admin/Companies/view.php:278
+msgid "Related Payments"
+msgstr ""
+
+#: Admin/Companies/view.php:286
+#: Admin/Payments/view.php:36
+msgid "Pay When"
+msgstr ""
+
+#: Admin/Companies/view.php:287
+msgid "frequency"
+msgstr ""
+
+#: Admin/Companies/view.php:352
+#: Admin/Rules/view.php:35
+msgid "Related Users"
+msgstr ""
+
+#: Admin/Companies/view.php:357
+msgid "Rule Id"
+msgstr ""
+
+#: Admin/Companies/view.php:360
+#: Admin/Users/view.php:49
+msgid "Username"
+msgstr ""
+
+#: Admin/Companies/view.php:361
+msgid "Password"
+msgstr ""
+
+#: Admin/Companies/view.php:363
+msgid "Avatar"
+msgstr ""
+
+#: Admin/Companies/view.php:364
+#: Admin/Users/view.php:57
+msgid "Token"
+msgstr ""
+
+#: Admin/Companies/view.php:365
+#: Admin/Users/view.php:61
+msgid "Token Validity"
+msgstr ""
+
+#: Admin/Companies/view.php:366
+msgid "Api Key"
+msgstr ""
+
+#: Admin/Companies/view.php:367
+msgid "Api Key Plain"
+msgstr ""
+
+#: Admin/Contacts/add.php:15
+msgid "Add Contact"
+msgstr ""
+
+#: Admin/Contacts/edit.php:15
+msgid "Edit Contact"
+msgstr ""
+
+#: Admin/Contacts/view.php:28
+#: Admin/Partners/view.php:147
+msgid "Email"
+msgstr ""
+
+#: Admin/FileImports/add.php:16
+msgid "Add File Import"
+msgstr ""
+
+#: Admin/FileImports/edit.php:16
+msgid "Edit File Import"
+msgstr ""
+
+#: Admin/FileImports/index.php:37
+msgid "Process file"
+msgstr ""
+
+#: Admin/OrderEvolutions/add.php:17
+msgid "Add Order Evolution"
+msgstr ""
+
+#: Admin/OrderEvolutions/edit.php:17
+msgid "Edit Order Evolution"
+msgstr ""
+
+#: Admin/OrderEvolutions/view.php:24
+#: Admin/OrderProducts/view.php:20
+msgid "Order"
+msgstr ""
+
+#: Admin/OrderEvolutions/view.php:32
+#: Admin/OrderStatus/view.php:67
+#: Admin/Orders/_view.php:72
+#: Admin/Users/view.php:88
+msgid "Date Start"
+msgstr ""
+
+#: Admin/OrderEvolutions/view.php:36
+#: Admin/OrderStatus/view.php:68
+#: Admin/Orders/_view.php:73
+#: Admin/Users/view.php:89
+msgid "Date End"
+msgstr ""
+
+#: Admin/OrderProducts/add.php:16
+msgid "Add Order Product"
+msgstr ""
+
+#: Admin/OrderProducts/edit.php:16
+msgid "Edit Order Product"
+msgstr ""
+
+#: Admin/OrderProducts/view.php:24
+#: Admin/Orders/view.php:117
+#: Admin/ShoppingCartItems/view.php:24
+#: Admin/ShoppingCarts/view.php:121
+msgid "Product"
+msgstr ""
+
+#: Admin/OrderProducts/view.php:28
+#: Admin/Orders/_view.php:106
+#: Admin/Orders/view.php:119
+#: Admin/Products/view.php:77
+#: Admin/ShoppingCartItems/view.php:28
+#: Admin/ShoppingCarts/view.php:124
+msgid "Sale Price"
+msgstr ""
+
+#: Admin/OrderProducts/view.php:32
+#: Admin/Orders/_view.php:107
+#: Admin/Products/view.php:78
+#: Admin/ShoppingCartItems/view.php:32
+msgid "Sale Unit"
+msgstr ""
+
+#: Admin/OrderProducts/view.php:36
+#: Admin/Orders/_view.php:108
+#: Admin/Orders/view.php:118
+#: Admin/Products/view.php:79
+#: Admin/ShoppingCartItems/view.php:36
+#: Admin/ShoppingCarts/view.php:123
+msgid "Amount"
+msgstr ""
+
+#: Admin/OrderStatus/add.php:18
+msgid "Add Order Status"
+msgstr ""
+
+#: Admin/OrderStatus/add.php:25
+#: Admin/OrderStatus/edit.php:25
+msgid "Process"
+msgstr ""
+
+#: Admin/OrderStatus/add.php:25
+#: Admin/OrderStatus/edit.php:25
+msgid "Cancel"
+msgstr ""
+
+#: Admin/OrderStatus/edit.php:18
+msgid "Edit Order Status"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:20
+msgid "Parent Order Status"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:28
+#: Admin/OrderStatus/view.php:101
+msgid "Background Color"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:32
+#: Admin/OrderStatus/view.php:102
+msgid "Font Color"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:59
+#: Admin/Orders/_view.php:64
+#: Admin/Users/view.php:80
+msgid "Related Order Evolutions"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:65
+#: Admin/Orders/_view.php:70
+#: Admin/Orders/_view.php:104
+#: Admin/Products/view.php:75
+#: Admin/Users/view.php:86
+msgid "Order Id"
+msgstr ""
+
+#: Admin/OrderStatus/view.php:94
+msgid "Related Order Status"
+msgstr ""
+
+#: Admin/Orders/_view.php:40
+msgid "Billing"
+msgstr ""
+
+#: Admin/Orders/_view.php:99
+#: Admin/Products/view.php:70
+msgid "Related Order Products"
+msgstr ""
+
+#: Admin/Orders/_view.php:105
+#: Admin/Products/view.php:76
+msgid "Product Id"
+msgstr ""
+
+#: Admin/Orders/add.php:22
+msgid "Add Order"
+msgstr ""
+
+#: Admin/Orders/edit.php:22
+msgid "Edit Order"
+msgstr ""
+
+#: Admin/Orders/view.php:35
+#: Admin/ShoppingCarts/view.php:33
+msgid "Quantity products"
+msgstr ""
+
+#: Admin/Orders/view.php:43
+#: Admin/ShoppingCarts/view.php:41
+msgid "Quantity items"
+msgstr ""
+
+#: Admin/Orders/view.php:51
+#: Admin/ShoppingCarts/view.php:49
+msgid "Total order"
+msgstr ""
+
+#: Admin/Orders/view.php:63
+msgid "VIEW BILLING"
+msgstr ""
+
+#: Admin/Orders/view.php:66
+msgid "GENERATE BILLING"
+msgstr ""
+
+#: Admin/Orders/view.php:66
+#: Admin/Orders/view.php:155
+msgid "Are you sure you want to prev # {0}?"
+msgstr ""
+
+#: Admin/Orders/view.php:66
+#: Admin/Orders/view.php:137
+#: Admin/Orders/view.php:143
+#: Admin/Orders/view.php:155
+#: Admin/Orders/view.php:156
+msgid "Activate"
+msgstr ""
+
+#: Admin/Orders/view.php:66
+msgid "btn btn-lg btn-block {0}"
+msgstr ""
+
+#: Admin/Orders/view.php:120
+#: Admin/ShoppingCarts/view.php:125
+msgid "Price Total"
+msgstr ""
+
+#: Admin/Orders/view.php:135
+#: Admin/Orders/view.php:141
+msgid "{0} Disable"
+msgstr ""
+
+#: Admin/Orders/view.php:135
+#: Admin/Orders/view.php:141
+msgid "Are you sure you want to disable # {0}?"
+msgstr ""
+
+#: Admin/Orders/view.php:135
+#: Admin/Orders/view.php:141
+msgid "Disable"
+msgstr ""
+
+#: Admin/Orders/view.php:135
+msgid "btn btn-danger {0}"
+msgstr ""
+
+#: Admin/Orders/view.php:137
+#: Admin/Orders/view.php:143
+msgid "{0} Activate"
+msgstr ""
+
+#: Admin/Orders/view.php:137
+#: Admin/Orders/view.php:143
+msgid "Are you sure you want to activate # {0}?"
+msgstr ""
+
+#: Admin/Orders/view.php:141
+#: Admin/Orders/view.php:143
+msgid "btn btn-secondary disabled"
+msgstr ""
+
+#: Admin/Orders/view.php:155
+msgid "{0} Prev"
+msgstr ""
+
+#: Admin/Orders/view.php:155
+#: Admin/Orders/view.php:156
+#: Admin/Partners/index.php:36
+msgid "btn {0}"
+msgstr ""
+
+#: Admin/Orders/view.php:156
+msgid "Next {0}"
+msgstr ""
+
+#: Admin/Orders/view.php:156
+msgid "Are you sure you want to next # {0}?"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:11
+msgid "Payments awaiting confirmation"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:46
+#: Admin/element/Dashboard/billings.php:26
+msgid "Waiting"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:65
+msgid "Monthly inputs and outputs"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:71
+msgid "Yearly inputs and outputs"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:80
+msgid "Processing of monthly checks"
+msgstr ""
+
+#: Admin/Pages/dashboard.php:86
+msgid "Processing of annual checks"
+msgstr ""
+
+#: Admin/PartnerTypes/add.php:15
+msgid "Add Partner Type"
+msgstr ""
+
+#: Admin/PartnerTypes/edit.php:15
+msgid "Edit Partner Type"
+msgstr ""
+
+#: Admin/PartnerTypes/view.php:24
+msgid "Accept Orders"
+msgstr ""
+
+#: Admin/Partners/add.php:20
+msgid "Add Partner"
+msgstr ""
+
+#: Admin/Partners/edit.php:20
+msgid "Edit Partner"
+msgstr ""
+
+#: Admin/Partners/index.php:36
+msgid "{0} Shop"
+msgstr ""
+
+#: Admin/Partners/view.php:20
+msgid "Partner Type"
+msgstr ""
+
+#: Admin/Partners/view.php:141
+msgid "Related Contacts"
+msgstr ""
+
+#: Admin/Payments/add.php:15
+msgid "Add Payment"
+msgstr ""
+
+#: Admin/Payments/edit.php:15
+msgid "Edit Payment"
+msgstr ""
+
+#: Admin/Payments/index.php:39
+msgid "Generate payments {0}"
+msgstr ""
+
+#: Admin/Payments/index.php:39
+msgid "Do you really want to create payments for the period # {0}?"
+msgstr ""
+
+#: Admin/Payments/index.php:39
+msgid "Generate"
+msgstr ""
+
+#: Admin/Payments/view.php:24
+msgid "Frequency"
+msgstr ""
+
+#: Admin/Products/add.php:16
+msgid "Add Product"
+msgstr ""
+
+#: Admin/Products/edit.php:16
+msgid "Edit Product"
+msgstr ""
+
+#: Admin/Products/view.php:54
+msgid "information"
+msgstr ""
+
+#: Admin/Rules/add.php:15
+msgid "Add Rule"
+msgstr ""
+
+#: Admin/Rules/edit.php:15
+msgid "Edit Rule"
+msgstr ""
+
+#: Admin/ShoppingCartItems/add.php:16
+msgid "Add Shopping Cart Item"
+msgstr ""
+
+#: Admin/ShoppingCartItems/edit.php:16
+msgid "Edit Shopping Cart Item"
+msgstr ""
+
+#: Admin/ShoppingCartItems/view.php:20
+msgid "Shopping Cart"
+msgstr ""
+
+#: Admin/ShoppingCarts/add.php:23
+#: layout/TwitterBootstrap/dashboard.php:80
+msgid "{0} Go back"
+msgstr ""
+
+#: Admin/ShoppingCarts/add_item.php:3
+msgid "{0} to cart"
+msgstr ""
+
+#: Admin/ShoppingCarts/edit.php:19
+msgid "Edit Shopping Cart"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:66
+msgid "PURCHASE"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:122
+msgid "History price"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:143
+#: Admin/Users/view.php:22
+msgid "{0} Edit"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:150
+#: Admin/element/Shop/card-product.php:21
+msgid "btn btn-outline-{0} mt-auto"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:151
+#: Admin/element/Shop/card-product.php:22
+msgid "Edit to cart"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:154
+msgid "{0} Delete"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:154
+#: Admin/element/Shop/sub-menu-actions.php:7
+#: Admin/element/table-actions.php:30
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:154
+#: Admin/element/table-actions.php:7
+#: Admin/element/table-actions.php:30
+msgid "Delete"
+msgstr ""
+
+#: Admin/ShoppingCarts/view.php:162
+msgid "{0} Add more products"
+msgstr ""
+
+#: Admin/Users/add.php:19
+msgid "Add User"
+msgstr ""
+
+#: Admin/Users/confirmed.php:28
+msgid "password"
+msgstr ""
+
+#: Admin/Users/confirmed.php:29
+msgid "password confirm"
+msgstr ""
+
+#: Admin/Users/confirmed.php:30
+msgid "Confirmed"
+msgstr ""
+
+#: Admin/Users/edit.php:19
+msgid "Edit User"
+msgstr ""
+
+#: Admin/Users/index.php:36
+msgid "Are you sure you want to reset the password # {0}?"
+msgstr ""
+
+#: Admin/Users/index.php:36
+msgid "reset password"
+msgstr ""
+
+#: Admin/Users/login.php:29
+msgid "Log In"
+msgstr ""
+
+#: Admin/Users/view.php:22
+#: Admin/element/table-actions.php:6
+#: Admin/element/table-actions.php:29
+msgid "Edit"
+msgstr ""
+
+#: Admin/Users/view.php:37
+msgid "Rule"
+msgstr ""
+
+#: Admin/element/Dashboard/billings.php:5
+msgid "Inputs"
+msgstr ""
+
+#: Admin/element/Dashboard/billings.php:10
+msgid "Waiting for input"
+msgstr ""
+
+#: Admin/element/Dashboard/billings.php:15
+msgid "Outputs"
+msgstr ""
+
+#: Admin/element/Dashboard/billings.php:20
+msgid "Waiting for output"
+msgstr ""
+
+#: Admin/element/Dashboard/billings.php:31
+msgid "Results"
+msgstr ""
+
+#: Admin/element/Forms/adresses.php:2
+msgid "Address information"
+msgstr ""
+
+#: Admin/element/Forms/adresses.php:14
+msgid "Residential"
+msgstr ""
+
+#: Admin/element/Forms/adresses.php:14
+msgid "Commercial"
+msgstr ""
+
+#: Admin/element/Forms/contacts.php:2
+msgid "Contact information"
+msgstr ""
+
+#: Admin/element/Index/addresses.php:8
+#: Admin/element/Index/addresses.php:20
+msgid "Addresses"
+msgstr ""
+
+#: Admin/element/Shop/card-product.php:8
+msgid "Price history"
+msgstr ""
+
+#: Admin/element/Shop/card-product.php:14
+msgid "{0} Edit to cart"
+msgstr ""
+
+#: Admin/element/Shop/card-product.php:14
+msgid "{0} Add to cart"
+msgstr ""
+
+#: Admin/element/Shop/card-product.php:22
+msgid "Add to cart"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:5
+#: Admin/element/Shop/sub-menu-actions.php:17
+#: Admin/element/Shop/sub-menu-actions.php:24
+#: Admin/element/menu-actions.php:32
+#: Admin/element/table-actions.php:2
+#: Admin/element/table-actions.php:3
+#: Admin/element/table-actions.php:5
+#: Admin/element/table-actions.php:6
+#: Admin/element/table-actions.php:7
+msgid "{0} {1}"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:5
+msgid "Clear"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:7
+msgid "btn btn-danger float-left mr-3 {0}"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:26
+msgid "btn btn-outline-success float-right ml-3 {0}"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:30
+msgid "{0} {1} {2}"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:30
+msgid "Shopping"
+msgstr ""
+
+#: Admin/element/Shop/sub-menu-actions.php:32
+msgid "btn btn-outline-dark float-right {0}"
+msgstr ""
+
+#: Admin/element/pagination.php:2
+msgid "First"
+msgstr ""
+
+#: Admin/element/pagination.php:3
+msgid "Previous"
+msgstr ""
+
+#: Admin/element/pagination.php:5
+msgid "Next"
+msgstr ""
+
+#: Admin/element/pagination.php:6
+msgid "Last"
+msgstr ""
+
+#: Admin/element/pagination.php:8
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Admin/element/table-actions.php:2
+#: Admin/element/table-actions.php:3
+msgid ""
+msgstr ""
+
+#: Admin/element/table-actions.php:5
+#: Admin/element/table-actions.php:28
+msgid "View"
+msgstr ""
+
+#: Admin/element/table-actions.php:13
+msgid "Move up"
+msgstr ""
+
+#: Admin/element/table-actions.php:14
+msgid "Move down"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:26
+#: layout/TwitterBootstrap/dashboard.php:42
+msgid "All companies"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:39
+msgid "Change company"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:50
+msgid "Welcome, {0}"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:52
+msgid "{0} Profile"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:53
+msgid "{0} Logout"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:59
+msgid "Search"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:75
+#: layout/TwitterBootstrap/dashboard.php:76
+msgid "Reset"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:84
+msgid "Export"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:88
+msgid "Options"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:91
+msgid "List records"
+msgstr ""
+
+#: layout/TwitterBootstrap/dashboard.php:92
+msgid "Add new record"
+msgstr ""
+
+#: layout/error.php:38
+msgid "Back"
+msgstr ""
+
